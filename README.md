@@ -88,10 +88,10 @@ Just talk to Claude naturally:
 | You say | What happens |
 |---------|-------------|
 | "What rooms are available at 2pm tomorrow?" | Searches availability for conference rooms |
-| "Book Fenway Room Thursday 10-11am" | Books the room via the checkout flow |
+| "Book the main conference room Thursday 10-11am" | Books the room via the checkout flow |
 | "What do I have booked this week?" | Lists your upcoming bookings |
 | "Cancel my 3pm booking" | Looks up the booking ID and cancels it |
-| "What's the schedule for Brattle Room today?" | Shows all bookings for that room |
+| "What's the schedule for the small meeting room today?" | Shows all bookings for that room |
 | "I need a room for 8 people tomorrow at noon" | Searches, filters by capacity, suggests options |
 
 ## How it works

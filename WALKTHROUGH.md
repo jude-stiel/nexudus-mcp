@@ -75,8 +75,8 @@ The payload wraps the booking in a basket array:
       "UniqueId": "<random-uuid>",
       "FromTime": "2026-03-25T16:00:00.000Z",
       "ToTime": "2026-03-25T17:00:00.000Z",
-      "ResourceId": 1415137671,
-      "CoworkerId": 1418706618,
+      "ResourceId": 1234567890,
+      "CoworkerId": 1234567891,
       "Notes": "",
       "CustomFields": { "Data": [] },
       "BookingVisitors": [],
@@ -107,7 +107,7 @@ Nexudus returns local times without timezone suffixes (e.g., `2026-03-25T16:00:0
 
 ### Room fuzzy matching
 
-Room names like "Fenway Room - P225" are matched flexibly — you can say "Fenway", "fenway room", or pass the numeric ID. The server tries exact match, then substring match, then numeric ID match.
+Room names like "Main Conference Room" are matched flexibly — you can say "Fenway", "fenway room", or pass the numeric ID. The server tries exact match, then substring match, then numeric ID match.
 
 ## Obstacles Overcome
 
